@@ -3,7 +3,7 @@
     class="leading-3 xl:grid text-center md:leading-5 mt-8 sm:pb-0 md:pb-10 grid place-content-center place-items-center sm:grid sm:place-content-center sm:place-items-center lg:mt-8"
   >
     <p
-      class="sm:grid md:grid lg:grid font-['SamsungOne'] w-10/12 sm:w-11/12 md:w-1 lg:w-9/12 font-normal text-[#f8f8f8] text-[12px]"
+      class="sm:grid md:grid lg:grid font-['SamsungOne'] w-10/12 sm:w-11/12 md:w-10/12 lg:w-9/12 font-normal text-[#f8f8f8] text-[12px]"
     >
       * Sequential and random write performance was measured with Intelligent
       Turbo Write technology being activated. Intelligent Turbo Write operates

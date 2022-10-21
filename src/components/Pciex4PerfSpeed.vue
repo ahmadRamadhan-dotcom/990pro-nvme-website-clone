@@ -15,33 +15,20 @@
           >PCIe 4.0 speed maximized
         </span>
         <div
-          class="sm:hidden pb-12 mt-6 grid text-sm font-normal font-['SamsungOne'] text-center"
+          class="w-10/12 sm:w-11/12 md:w-10/12 pb-5 md:pb-0 mt-6 grid text-sm font-normal font-['SamsungOne'] text-center"
         >
-          <span
-            v-for="(data, index) in pcie4PerfDataMobileDevices"
-            :key="index"
-          >
-            {{ data.content }}
-          </span>
           <span>
-            performance of PCIe<sup>®</sup> 4.0 Fly high in gaming, video
+            Huge speed boost. 40% and 55% faster random read/write speeds than
+            980 PRO - up to 1400K/1650K IOPS, while sequential read/write speeds
+            up to 7450/6900 MB/s reach near max performance of PCIe<sup>®</sup>
+            4.0.Fly high in gaming, video and 3D editing, data analysis, and
+            more.
           </span>
-          <span> and 3D editing, data analysis, and more. </span>
         </div>
         <div
           class="hidden sm:pb-16 sm:grid md:hidden text-sm font-normal font-['SamsungOne'] text-center mt-10"
-        >
-          <span v-for="(data, index) in pcie4PerfDataSmallDevices" :key="index">
-            {{ data.content }}
-          </span>
-        </div>
+        ></div>
         <Samsung999ProNvmeSpeed class="md:hidden" />
-        <span
-          v-for="(data, index) in pcie4PerfData"
-          :key="index"
-          class="hidden sm:hidden md:block font-['SamsungOne'] font-normal md:text-[15px] lg:text-lg"
-          >{{ data.content }}
-        </span>
         <NoticeTesPerf />
         <Samsung999ProNvmeSpeed class="hidden sm:hidden md:block" />
       </div>
@@ -52,47 +39,4 @@
 <script setup>
 import Samsung999ProNvmeSpeed from "./990ProSpeedImage.vue";
 import NoticeTesPerf from "./NoticeTesPerf.vue";
-const pcie4PerfData = [
-  { id: 1, content: "Huge speed boost." },
-  {
-    id: 2,
-    content:
-      "40% and 55% faster random read/write speeds than 980 PRO - up to 1400K/1650K IOPS,",
-  },
-  {
-    id: 3,
-    content:
-      "while sequential read/write speeds up to 7450/6900 MB/s reach near max performance of PCIe® 4.0.",
-  },
-  {
-    id: 4,
-    content:
-      " Fly high in gaming, video and 3D editing, data analysis, and more.",
-  },
-];
-
-const pcie4PerfDataSmallDevices = [
-  {
-    id: 1,
-    content:
-      "Huge speed boost 40% and 55% faster random read/write speeds than 980 PRO - up to",
-  },
-  {
-    id: 2,
-    content:
-      "1400K/1650K IOPS while sequential read/write speeds up to 7450/6900 MB/s reach near max",
-  },
-  {
-    id: 3,
-    content:
-      "performance of PCIe® 4.0. Fly high in gaming, video and 3D editing, data analysis, and more.",
-  },
-];
-
-const pcie4PerfDataMobileDevices = [
-  { id: 1, content: "Huge speed boost. 40% and 55% faster random" },
-  { id: 2, content: "read/write speeds than 980 PRO - up to" },
-  { id: 3, content: "1400K/1650K, while sequential read/write" },
-  { id: 4, content: "speeds up to 7450/6900 MB/s react near max" },
-];
 </script>
