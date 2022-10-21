@@ -1,6 +1,7 @@
 <script setup>
 import Header from "./components/Header.vue";
 import BannerHero from "./components/BannerHero.vue";
+import Overview from "./components/Overview.vue";
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 </script>
@@ -8,4 +9,5 @@ import BannerHero from "./components/BannerHero.vue";
 <template>
   <Header />
   <BannerHero />
+  <Overview />
 </template>

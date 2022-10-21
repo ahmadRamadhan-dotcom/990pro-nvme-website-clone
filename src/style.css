@@ -17,5 +17,6 @@
   src: url("./fonts/SamsungSharpSans-Bold.ttf");
 }
 body {
+  background: #000000;
   color: #ffffff;
 }
