@@ -1,7 +1,7 @@
 <template>
   <div class="md:hidden w-full">
     <div class="md:hidden">
-      <div class="flex justify-center sm:flex gap-7 sm:gap-8">
+      <div class="flex justify-center sm:flex sm:justify-start gap-7 sm:gap-8">
         <span
           v-for="(data, index) in centerData"
           :key="index"
