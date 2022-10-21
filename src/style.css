@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: SamsungOne;
+  src: url("./fonts/SamsungOne-400.ttf");
+}
+
+@font-face {
+  font-family: SamsungOneBold;
+  src: url("./fonts/SamsungOne-700.ttf");
+}
+
+@font-face {
+  font-family: Samsung Sharp Sans;
+  src: url("./fonts/SamsungSharpSans-Bold.ttf");
+}
+body {
+  color: #ffffff;
+}
