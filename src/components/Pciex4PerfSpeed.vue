@@ -1,5 +1,5 @@
 <template>
-  <div class="sm:pb-12 xl:h-[85vh] flex justify-center">
+  <div class="py-12 sm:pb-12 sm:py-0 xl:h-[85vh] flex justify-center">
     <div class="grid place-content-center place-items-center">
       <div class="grid place-items-center">
         <div class="grid md:hidden text-center">
@@ -11,11 +11,25 @@
           </span>
         </div>
         <span
-          class="sm:text-2xl md:text-[34px] sm:w-[200px] md:w-full text-center lg:text-5xl sm:mt-10 md:mb-10 xl:mb-10 font-bold font-['Samsung_Sharp_Sans']"
+          class="text-2xl sm:text-2xl md:text-[34px] w-10/12 sm:w-[200px] md:w-full text-center lg:text-5xl mt-12 sm:mt-10 md:mb-10 xl:mb-10 font-bold font-['Samsung_Sharp_Sans']"
           >PCIe 4.0 speed maximized
         </span>
         <div
-          class="md:hidden grid text-sm font-normal font-['SamsungOne'] text-center mt-10"
+          class="sm:hidden mt-6 grid text-sm font-normal font-['SamsungOne'] text-center"
+        >
+          <span
+            v-for="(data, index) in pcie4PerfDataMobileDevices"
+            :key="index"
+          >
+            {{ data.content }}
+          </span>
+          <span>
+            performance of PCIe<sup>®</sup> 4.0 Fly high in gaming, video
+          </span>
+          <span> and 3D editing, data analysis, and more. </span>
+        </div>
+        <div
+          class="hidden sm:grid md:hidden text-sm font-normal font-['SamsungOne'] text-center mt-10"
         >
           <span v-for="(data, index) in pcie4PerfDataSmallDevices" :key="index">
             {{ data.content }}
@@ -24,10 +38,10 @@
         <span
           v-for="(data, index) in pcie4PerfData"
           :key="index"
-          class="sm:hidden md:block font-['SamsungOne'] font-normal md:text-[15px] lg:text-lg"
+          class="hidden sm:hidden md:block font-['SamsungOne'] font-normal md:text-[15px] lg:text-lg"
           >{{ data.content }}
         </span>
-        <div class="sm:hidden md:block lg:mt-8 grid text-center">
+        <div class="hidden sm:hidden md:block lg:mt-8 text-center">
           <span
             class="font-['SamsungOne'] font-normal text-[#f8f8f8] text-[12px]"
           >
@@ -46,7 +60,7 @@
             other factors. For detailed information, please
             <br class="lg:hidden" />
             contact your local <br class="md:hidden lg:block xl:hidden" />
-            service center <br class="lg:hidden xl:block" />
+            service center <br class="lg:block" />
           </span>
           <br class="sm:hidden xl:block" />
           <span
@@ -118,5 +132,12 @@ const pcie4PerfDataSmallDevices = [
     content:
       "performance of PCIe® 4.0. Fly high in gaming, video and 3D editing, data analysis, and more.",
   },
+];
+
+const pcie4PerfDataMobileDevices = [
+  { id: 1, content: "Huge speed boost. 40% and 55% faster random" },
+  { id: 2, content: "read/write speeds than 980 PRO - up to" },
+  { id: 3, content: "1400K/1650K, while sequential read/write" },
+  { id: 4, content: "speeds up to 7450/6900 MB/s react near max" },
 ];
 </script>
