@@ -13,13 +13,18 @@
       <span
         class="w-11/12 mt-8 text-center font-normal font-['SamsungOne'] text-sm sm:text-sm md:text-[15px] lg:text-lg xl:hidden"
       >
-        Reach max performance of PCIe<sup>®</sup> 4.0. Experience
-        longer-lasting, opponent-blasting speed The in-house controller's smart
-        heat control delivers supreme power efficiency <br />
+        Reach max performance of PCIe<sup>®</sup>4.0 Experience longer-lasting,
+        opponent-blasting speed The in-house controller's smart heat control
+        delivers supreme power efficiency <br />
         while mantaining ferocious speed and perfomance, to always keep you at
         the top of your game.
       </span>
       <div class="text-center xl:mt-7 grid">
+        <span
+          class="hidden sm:hidden xl:block font-normal font-['SamsungOne'] text-lg"
+        >
+          Reach max performance of PCIe<sup>®</sup>4.0
+        </span>
         <span
           v-for="(data, index) in overviewData"
           :key="index"
@@ -39,14 +44,13 @@
 
 <script setup>
 const overviewData = [
-  { id: 1, content: "Reach max performance of PCIe® 4.0." },
-  { id: 2, content: "Experience longer-lasting, opponent-blasting speed" },
+  { id: 1, content: "Experience longer-lasting, opponent-blasting speed." },
   {
-    id: 3,
+    id: 2,
     content:
       "The in-house controller's smart heat control delivers supreme power efficiency",
   },
-  { id: 4, content: "while mantaining ferocious speed and perfomance," },
-  { id: 5, content: "to always keep you at the top of your game." },
+  { id: 3, content: "while mantaining ferocious speed and perfomance," },
+  { id: 4, content: "to always keep you at the top of your game." },
 ];
 </script>

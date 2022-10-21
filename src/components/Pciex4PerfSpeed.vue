@@ -1,5 +1,5 @@
 <template>
-  <div class="py-12 sm:pb-12 sm:py-0 xl:h-[85vh] flex justify-center">
+  <div class="py-12 sm:py-10 md:py-0xl:h-[85vh] flex justify-center">
     <div class="grid place-content-center place-items-center">
       <div class="grid place-items-center">
         <div class="grid md:hidden text-center">
@@ -15,7 +15,7 @@
           >PCIe 4.0 speed maximized
         </span>
         <div
-          class="sm:hidden mt-6 grid text-sm font-normal font-['SamsungOne'] text-center"
+          class="sm:hidden pb-12 mt-6 grid text-sm font-normal font-['SamsungOne'] text-center"
         >
           <span
             v-for="(data, index) in pcie4PerfDataMobileDevices"
@@ -29,74 +29,29 @@
           <span> and 3D editing, data analysis, and more. </span>
         </div>
         <div
-          class="hidden sm:grid md:hidden text-sm font-normal font-['SamsungOne'] text-center mt-10"
+          class="hidden sm:pb-16 sm:grid md:hidden text-sm font-normal font-['SamsungOne'] text-center mt-10"
         >
           <span v-for="(data, index) in pcie4PerfDataSmallDevices" :key="index">
             {{ data.content }}
           </span>
         </div>
+        <Samsung999ProNvmeSpeed class="md:hidden" />
         <span
           v-for="(data, index) in pcie4PerfData"
           :key="index"
           class="hidden sm:hidden md:block font-['SamsungOne'] font-normal md:text-[15px] lg:text-lg"
           >{{ data.content }}
         </span>
-        <div class="hidden sm:hidden md:block lg:mt-8 text-center">
-          <span
-            class="font-['SamsungOne'] font-normal text-[#f8f8f8] text-[12px]"
-          >
-            * Sequential and random write performance was measured with
-            Intelligent Turbo Write technology being <br class="lg:hidden" />
-            activated. Intelligent Turbo Write operates only
-            <br class="md:hidden lg:block xl:hidden" />
-            within a specific data transfer size.
-            <br class="md:hidden lg:block" />
-          </span>
-          <span
-            class="font-['SamsungOne'] font-normal text-[#f8f8f8] text-[12px]"
-          >
-            Performance may vary <br class="lg:hidden" />
-            depending on SSD’s firmware, system hardware & configuration and
-            other factors. For detailed information, please
-            <br class="lg:hidden" />
-            contact your local <br class="md:hidden lg:block xl:hidden" />
-            service center <br class="lg:block" />
-          </span>
-          <br class="sm:hidden xl:block" />
-          <span
-            class="xl:mt-6 font-['SamsungOne'] font-normal text-[#f8f8f8] text-[12px]"
-          >
-            * Test system configuration: AMD Ryzen 7 5800X 8-Core Processor
-            CPU@3.80GHz, DDR4 3600MHz 16GBx2 (PC4 <br class="lg:hidden" />
-            -25600 Overclock), <br class="md:hidden lg:block xl:block" />
-          </span>
-          <span
-            class="font-['SamsungOne'] font-normal text-[#f8f8f8] text-[12px]"
-          >
-            OS - Windows 10 Pro 64bit, Chipset - ASRock-X570 Taich
-          </span>
-          <div class="sm:mt-5 xl:mt-5 grid">
-            <span
-              class="font-['SamsungOne'] font-normal text-[#f8f8f8] text-[12px]"
-            >
-              * To maximize the performance of the 990 PRO, please check whether
-              your system supports PCIe®4.0 at the Intel
-              <br class="lg:hidden" />
-              or AMD website.
-            </span>
-            <span
-              class="md:mt-6 xl:mt-5 font-['SamsungOne'] font-normal text-[#f8f8f8] text-[12px]"
-            >
-              *4TB to be released in 2023.
-            </span>
-          </div>
-        </div>
+        <NoticeTesPerf />
+        <Samsung999ProNvmeSpeed class="hidden sm:hidden md:block" />
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
+import Samsung999ProNvmeSpeed from "./990ProSpeedImage.vue";
+import NoticeTesPerf from "./NoticeTesPerf.vue";
 const pcie4PerfData = [
   { id: 1, content: "Huge speed boost." },
   {
@@ -112,7 +67,7 @@ const pcie4PerfData = [
   {
     id: 4,
     content:
-      "Fly high in gaming, video and 3D editing, data analysis, and more.",
+      " Fly high in gaming, video and 3D editing, data analysis, and more.",
   },
 ];
 
