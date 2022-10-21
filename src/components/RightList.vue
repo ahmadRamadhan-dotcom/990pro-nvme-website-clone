@@ -1,6 +1,6 @@
 <template>
   <div class="md:flex md:items-center xl:flex xl:gap-3 xl:items-center">
-    <div class="sm:hidden xl:flex">
+    <div class="hidden sm:hidden xl:flex">
       <span
         v-for="(data, index) in rightData"
         :key="index"
@@ -9,11 +9,11 @@
       >
     </div>
     <div
-      class="sm:flex sm:items-center xl:flex xl:items-center sm:gap-5 xl:gap-5"
+      class="flex items-center sm:flex sm:items-center xl:flex xl:items-center gap-5 sm:gap-5 xl:gap-5"
     >
       <button
         aria-label="search button"
-        class="inline-flex items-cente sm:w-4 xl:w-5"
+        class="inline-flex items-cente w-4 sm:w-4 xl:w-5"
       >
         <img
           src="/icon-bold-action-search-wh.svg"
@@ -21,10 +21,11 @@
         />
       </button>
       <div class="flex items-center gap-2">
-        <a href="#" class="sm:w-4 xl:w-5 flex items-center">
+        <a href="#" class="w-4 sm:w-4 xl:w-5 flex items-center">
           <img src="/icon-language.svg" alt="white globel icon" />
         </a>
-        <span class="font-['SamsungOne'] sm:text-[10px] xl:text-[12px]"
+        <span
+          class="font-['SamsungOne'] text-[10px] sm:text-[10px] xl:text-[12px]"
           >Global</span
         >
       </div>
@@ -35,7 +36,7 @@
         <img
           src="../assets/navigation.svg"
           alt="hamburger menu only showing in small devices"
-          class="sm:h-5"
+          class="h-5 sm:h-5"
         />
       </a>
     </div>

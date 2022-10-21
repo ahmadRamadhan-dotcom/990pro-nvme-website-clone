@@ -1,5 +1,5 @@
 <template>
-  <div class="sm:hidden xl:flex">
+  <div class="hidden sm:hidden xl:flex">
     <span
       v-for="(data, index) in leftData"
       :key="index"

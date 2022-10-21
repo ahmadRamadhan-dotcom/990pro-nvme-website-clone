@@ -3,11 +3,11 @@
     <div class="w-full grid">
       <div class="flex justify-center">
         <div
-          class="sm:w-[600px] md:w-[700px] lg:w-[950px] xl:w-[1300px] sm:py-4 xl:py-0 xl:pt-1.5 sm:flex sm:justify-between sm:items-center"
+          class="w-10/12 sm:w-[600px] md:w-[700px] lg:w-[950px] xl:w-[1300px] py-4 sm:py-4 xl:py-0 xl:pt-1.5 flex justify-between items-center sm:flex sm:justify-between sm:items-center"
         >
           <div class="xl:flex xl:items-center xl:gap-2">
             <img
-              class="sm:h-3 lg:h-4"
+              class="h-3 sm:h-3 lg:h-4"
               src="/global-samsung-logo.svg"
               alt="fancy samsung top logo   "
             />
@@ -17,7 +17,7 @@
           <RightList :rightData="rightData" />
         </div>
       </div>
-      <span class="">
+      <span class="w-full sm:w-full">
         <hr
           style="
             height: 1px;
@@ -29,17 +29,17 @@
       </span>
       <div class="flex justify-center xl:mt-1.5">
         <div
-          class="sm:w-[600px] md:w-[700px] lg:w-[950px] sm:py-3 xl:py-0 xl:w-[1300px] sm:flex sm:justify-between sm:items-center xl:flex xl:justify-between xl:items-center"
+          class="w-10/12 sm:w-[600px] md:w-[700px] lg:w-[950px] py-3 sm:py-3 xl:py-0 xl:w-[1300px] flex justify-between sm:flex sm:justify-between sm:items-center xl:flex xl:justify-between xl:items-center"
         >
           <div
             class="sm:flex sm:items-center sm:gap-2 xl:flex xl:items-center xl:gap-1"
           >
             <span
-              class="font-['Samsung_Sharp_Sans'] sm:text-[14px] md:text-[13px] xl:text-[16px] font-bold text-[#aaaaaa]"
+              class="font-['Samsung_Sharp_Sans'] text-[14px] sm:text-[14px] md:text-[13px] xl:text-[16px] font-bold text-[#aaaaaa]"
               >Internal S... /</span
             >
             <span
-              class="font-['Samsung_Sharp_Sans'] sm:text-[14px] md:text-[13px] xl:text-[16px] font-bold"
+              class="font-['Samsung_Sharp_Sans'] text-[14px] sm:text-[14px] md:text-[13px] xl:text-[16px] font-bold"
               >990 PRO</span
             >
           </div>
@@ -47,14 +47,14 @@
           <div class="">
             <a
               href="#_"
-              class="rounded-full xl:text-sm sm:px-3 sm:py-2 xl:px-5 xl:py-2 font-['SamsungOne'] font-bold nline-flex border items-center justify-center sm:text-[12px]"
+              class="rounded-full xl:text-sm px-3 py-2 sm:px-3 sm:py-2 xl:px-5 xl:py-2 font-['SamsungOne'] font-bold nline-flex border items-center justify-center text-[12px] sm:text-[12px]"
             >
               Where to buy
             </a>
           </div>
         </div>
       </div>
-      <span class="md:hidden">
+      <span class="w-full sm:w-full md:hidden">
         <hr
           style="
             height: 1px;

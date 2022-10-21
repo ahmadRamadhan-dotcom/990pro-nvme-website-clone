@@ -1,5 +1,5 @@
 <template>
-  <div class="sm:hidden md:block xl:mx-auto text-center">
+  <div class="hidden sm:hidden md:block xl:mx-auto text-center">
     <div class="xl:flex xl:gap-8">
       <span
         v-for="(data, index) in centerData"
