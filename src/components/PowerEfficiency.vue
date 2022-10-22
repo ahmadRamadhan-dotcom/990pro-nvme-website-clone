@@ -2,14 +2,14 @@
   <div class="flex lg:mt-14 xl:pt-10 xl:pb-12 justify-center">
     <div class="grid place-content-center place-items-center">
       <span
-        class="font-['Samsung_Sharp_Sans'] font-bold sm:text-2xl md:text-[34px] lg:text-5xl"
+        class="w-10/12 sm:w-full text-center font-['Samsung_Sharp_Sans'] font-bold text-2xl sm:text-2xl md:text-[34px] lg:text-5xl"
         >Breakthrough power efficiency
       </span>
       <div
-        class="sm:mt-5 xl:mt-10 grid place-content-center place-items-center text-center"
+        class="mt-6 sm:mt-5 xl:mt-10 grid place-content-center place-items-center text-center"
       >
         <span
-          class="sm:w-[93%] md:w-10/12 lg:w-8/12 xl:w-7/12 font-['SamsungOne'] font-normal sm:text-sm md:text-[15px] lg:text-lg"
+          class="w-[88%] sm:w-[93%] md:w-10/12 lg:w-8/12 xl:w-7/12 font-['SamsungOne'] font-normal text-sm sm:text-sm md:text-[15px] lg:text-lg"
         >
           More power-efficient performance.
           <br class="hidden sm:hidden md:block lg:block" />
@@ -21,10 +21,10 @@
         </span>
       </div>
       <div
-        class="xl:mt-10 sm:flex sm:flex-col-reverse md:flex-col sm:items-center text-center"
+        class="xl:mt-10 flex flex-col-reverse items-center sm:flex sm:flex-col-reverse md:flex-col sm:items-center text-center"
       >
         <div
-          class="sm:w-[48%] md:w-10/12 sm:mt-4 grid place-content-center place-items-center text-center"
+          class="w-[300px] sm:w-[48%] md:w-10/12 mt-5 sm:mt-4 grid place-content-center place-items-center text-center"
         >
           <span class="text-[12px] font-normal font-['SamsungOne']"
             >* 980 PRO Sequential Read/Write - 1,129/877 MB/Watt,
@@ -35,7 +35,7 @@
           </span>
         </div>
         <img
-          class="sm:mt-8 lg:mt-10"
+          class="mt-20 sm:mt-8 lg:mt-10"
           src="../assets/990-pro-of-pc-power-saving.jpeg"
           alt="the image of displaying how samsung 990 pro nvme use low power with high perfomance"
         />
