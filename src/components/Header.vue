@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-black flex justify-center">
+  <header class="w-full sticky top-0 z-[30] bg-black flex justify-center">
     <div class="w-full grid">
       <div class="flex justify-center">
         <div
@@ -66,7 +66,7 @@
       </span>
       <CenterListBottomSmallDevices :centerData="centerData" />
     </div>
-  </div>
+  </header>
 </template>
 
 <script setup>
