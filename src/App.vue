@@ -8,6 +8,7 @@ import PowerEfficiency from "./components/PowerEfficiency.vue";
 import ThermalSolution from "./components/ThermalSolution.vue";
 import TheChampionMaker from "./components/TheChampionMaker.vue";
 import SamsungMagician from "./components/SamsungMagician.vue";
+import NumberOneFlashMemory from "./components/NumberOneFlashMemory.vue";
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 </script>
@@ -22,4 +23,5 @@ import SamsungMagician from "./components/SamsungMagician.vue";
   <ThermalSolution />
   <TheChampionMaker />
   <SamsungMagician />
+  <NumberOneFlashMemory />
 </template>

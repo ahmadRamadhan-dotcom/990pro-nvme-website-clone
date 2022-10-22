@@ -24,7 +24,7 @@
       <img
         src="../assets/990-pro-of-pc-samsung-magician.webp"
         alt="the image of samsung magician software, which is great software"
-        class="mt-16 sm:mt-20 md:mt-0 md:h-[420px] lg:h-[570px] xl:h-[755px]"
+        class="mt-16 sm:mt-20 md:mt-0 md:w-6/12 xl:h-[755px]"
       />
     </div>
   </div>

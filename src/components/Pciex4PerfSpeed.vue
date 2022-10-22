@@ -30,7 +30,7 @@
           class="hidden sm:pb-16 sm:grid md:hidden text-sm font-normal font-['SamsungOne'] text-center mt-10"
         ></div>
         <Samsung999ProNvmeSpeed class="md:hidden" />
-        <NoticeTesPerf />
+        <NoteTesPerf />
         <Samsung999ProNvmeSpeed class="hidden sm:hidden md:block" />
       </div>
     </div>
@@ -39,5 +39,5 @@
 
 <script setup>
 import Samsung999ProNvmeSpeed from "./990ProSpeedImage.vue";
-import NoticeTesPerf from "./NoticeTesPerf.vue";
+import NoteTesPerf from "./NoteTesPerf.vue";
 </script>
