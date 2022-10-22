@@ -1,13 +1,19 @@
 <template>
   <div class="sm:mt-20 md:mt-0 flex justify-center items-center">
     <div
-      class="w-full sm:flex sm:flex-col-reverse md:flex-row md:items-center xl:flex xl:justify-between xl:items-center"
+      class="w-full flex flex-col-reverse sm:flex sm:flex-col-reverse md:flex-row md:items-center xl:flex xl:justify-between xl:items-center"
     >
+      <span
+        class="md:hidden mt-14 w-[95%] text-center md:w-10/12 lg:w-11/12 xl:w-10/12 md:mt-3 xl:mt-6 text-[12px] font-['SamsungOne'] font-normal"
+      >
+        * Source: 2003~2021 OMDIA data - NAND suppliers' revenue market share.
+      </span>
       <img
         class="sm:mt-20 md:w-6/12 xl:w-6/12"
         src="../assets/990-pro-of-no-1-01.webp"
         alt="the worlds flash memory since 2003 image from samsung"
       />
+
       <div
         class="md:mt-32 grid sm:place-content-center sm:place-items-center md:place-content-center sm:text-center md:text-left xl:w-[55%]"
       >
