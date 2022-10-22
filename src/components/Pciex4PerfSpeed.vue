@@ -15,12 +15,13 @@
           >PCIe 4.0 speed maximized
         </span>
         <div
-          class="w-10/12 sm:w-11/12 md:w-10/12 pb-5 md:pb-0 mt-6 grid text-sm font-normal font-['SamsungOne'] text-center"
+          class="w-10/12 sm:w-11/12 md:w-10/12 xl:w-7/12 pb-5 md:pb-0 mt-6 grid sm:text-sm xl:text-lg font-normal font-['SamsungOne'] text-center"
         >
           <span>
-            Huge speed boost. 40% and 55% faster random read/write speeds than
-            980 PRO - up to 1400K/1650K IOPS, while sequential read/write speeds
-            up to 7450/6900 MB/s reach near max performance of PCIe<sup>®</sup>
+            Huge speed boost. <br class="hidden sm:hidden xl:block" />
+            40% and 55% faster random read/write speeds than 980 PRO - up to
+            1400K/1650K IOPS, while sequential read/write speeds up to 7450/6900
+            MB/s reach near max performance of PCIe<sup>®</sup>
             4.0.Fly high in gaming, video and 3D editing, data analysis, and
             more.
           </span>
