@@ -1,8 +1,8 @@
 <template>
-  <div class="flex justify-center sm:mt-20 xl:mt-10">
-    <div class="xl:mt-16 grid sm:w-[95%] lg:w-4/5 xl:w-7/12">
+  <div class="flex justify-center mt-20 sm:mt-20 xl:mt-10">
+    <div class="xl:mt-16 grid w-11/12 sm:w-[95%] lg:w-4/5 xl:w-7/12">
       <span
-        class="font-['Samsung_Sharp_Sans'] text-center font-bold sm:text-[28px] lg:text-4xl"
+        class="font-['Samsung_Sharp_Sans'] text-center font-bold text-[28px] sm:text-[28px] lg:text-4xl"
         >Related Resources</span
       >
       <div
@@ -11,20 +11,20 @@
         :key="index"
         :class="showMenu ? (data.show = true) : ''"
         v-show="data.show"
-        class="xl:pb-5 sm:flex sm:items-end md:items-center sm:justify-between xl:flex xl:items-center xl:justify-between sm:mt-10 xl:mt-10"
+        class="xl:pb-5 flex items-end justify-between sm:flex sm:items-end md:items-center sm:justify-between xl:flex xl:items-center xl:justify-between mt-10 sm:mt-10 xl:mt-10"
       >
         <div
-          class="sm:flex sm:items-center sm:gap-6 xl:flex xl:gap-5 xl:items-center"
+          class="flex items-center gap-5 sm:flex sm:items-center sm:gap-6 xl:flex xl:gap-5 xl:items-center"
         >
           <img
-            class="sm:h-24 lg:h-32"
+            class="h-24 sm:h-24 lg:h-32"
             :src="'/src/assets/' + data.image"
             alt="cool image of related resources of samsung 990 pro nvme m.2 SSD"
           />
           <div class="grid gap-1">
             <span
               id="name"
-              class="font-bold font-['Samsung_Sharp_Sans'] sm:text-sm md:text-base lg:text-lg"
+              class="font-bold font-['Samsung_Sharp_Sans'] text-sm sm:text-sm md:text-base lg:text-lg"
               >{{ data.name }}
             </span>
             <span
@@ -53,7 +53,7 @@
         @click="showMenu = true"
         :class="showMenu ? 'hidden' : 'inline-flex'"
         aria-label="this button for show detail specification of resource-data"
-        class="sm:mt-10 xl:mt-12 items-center justify-center sm:w-[106px] sm:h-[42px] sm:mx-auto text-sm font-bold leading-6 font-['SamsungOne'] whitespace-no-wrap bg-white border border-gray-200 rounded-full text-[#000000] shadow-sm hover:bg-gray-50 focus:outline-none focus:shadow-none"
+        class="mt-12 sm:mt-10 xl:mt-12 items-center justify-center w-[106px] h-[42px] sm:w-[106px] sm:h-[42px] mx-auto sm:mx-auto text-sm font-bold leading-6 font-['SamsungOne'] whitespace-no-wrap bg-white border border-gray-200 rounded-full text-[#000000] shadow-sm hover:bg-gray-50 focus:outline-none focus:shadow-none"
       >
         View more
       </button>
