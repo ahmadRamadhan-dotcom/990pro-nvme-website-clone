@@ -17,8 +17,8 @@
           class="flex items-center gap-5 sm:flex sm:items-center sm:gap-6 xl:flex xl:gap-5 xl:items-center"
         >
           <img
+            :src="data.image"
             class="h-24 sm:h-24 lg:h-32"
-            :src="'/src/assets/' + data.image"
             alt="cool image of related resources of samsung 990 pro nvme m.2 SSD"
           />
           <div class="grid gap-1">
@@ -65,7 +65,8 @@
 const resourceData = [
   {
     id: 1,
-    image: "990-pro-series_brochure.webp",
+    image:
+      "https://res.cloudinary.com/dk7urhntn/image/upload/v1666524886/990-pro-series_brochure_mds336.webp",
     name: "990 PRO Series Brochure",
     type: "Brochure",
     version: "Version 1.0",
@@ -74,7 +75,8 @@ const resourceData = [
   },
   {
     id: 2,
-    image: "990-pro_datasheet.webp",
+    image:
+      "https://res.cloudinary.com/dk7urhntn/image/upload/v1666524901/990-pro_datasheet_wa6bxl.webp",
     name: "Samsung NVME SSD 990 PRO Datasheet",
     type: "Datasheet",
     version: "Version 1.0",
@@ -83,7 +85,8 @@ const resourceData = [
   },
   {
     id: 3,
-    image: "install_default_img.webp",
+    image:
+      "https://res.cloudinary.com/dk7urhntn/image/upload/v1666524911/install_default_img_cbsn4z.webp",
     name: "Magician Software",
     type: "Software Resource",
     version: "Version 7.2",
@@ -92,7 +95,8 @@ const resourceData = [
   },
   {
     id: 4,
-    image: "samsung_magician_7_0_1_installation_guide_v1.1_thumb.webp",
+    image:
+      "https://res.cloudinary.com/dk7urhntn/image/upload/v1666524921/samsung_magician_7_0_1_installation_guide_v1.1_thumb_fovkmk.webp",
     name: "Magician Software Installation Guide",
     type: "Software Resource",
     version: "Version 7.2",
@@ -101,7 +105,8 @@ const resourceData = [
   },
   {
     id: 5,
-    image: "open_source_announcement_7_0_0_v1.0_thumb.webp",
+    image:
+      "https://res.cloudinary.com/dk7urhntn/image/upload/v1666524931/open_source_announcement_7_0_0_v1.0_thumb_sajl1b.webp",
     name: "Magician Software Open Source Announcement",
     type: "Product Guide",
     version: "Version 1.0",
