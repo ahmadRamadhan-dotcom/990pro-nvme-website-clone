@@ -3,7 +3,7 @@
     <div class="w-full grid">
       <div class="flex justify-center">
         <div
-          class="w-10/12 sm:w-11/12 xl:w-[95%] 2xl:w-[70%] py-4 sm:py-4 xl:py-0 xl:pt-1.5 flex justify-between items-center sm:flex sm:justify-between sm:items-center"
+          class="w-10/12 sm:w-11/12 xl:w-[95%] 2xl:w-[1400px] py-4 sm:py-4 xl:py-0 xl:pt-1.5 flex justify-between items-center sm:flex sm:justify-between sm:items-center"
         >
           <div class="xl:flex xl:items-center xl:gap-2">
             <img
@@ -29,7 +29,7 @@
       </span>
       <div class="flex justify-center xl:mt-1.5">
         <div
-          class="w-10/12 sm:w-11/12 xl:w-[95%] 2xl:w-[70%] py-3 sm:py-3 xl:py-0 flex justify-between sm:flex sm:justify-between sm:items-center xl:flex xl:justify-between xl:items-center"
+          class="w-10/12 sm:w-11/12 xl:w-[95%] 2xl:w-[1400px] py-3 sm:py-3 xl:py-0 flex justify-between sm:flex sm:justify-between sm:items-center xl:flex xl:justify-between xl:items-center"
         >
           <div
             class="sm:flex sm:items-center sm:gap-2 xl:flex xl:items-center xl:gap-1"
