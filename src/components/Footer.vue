@@ -53,9 +53,13 @@
     <div>
       <FooterCollapse :footerData="footerData" />
       <div
-        class="hidden sm:hidden md:ml-[4%] lg:ml-[2%] md:mt-7 md:grid md:grid-cols-3 md:gap-12 lg:flex lg:gap-10 xl:gap-24"
+        class="hidden sm:hidden md:ml-[4%] lg:ml-[2%] md:mt-7 md:grid md:grid-cols-3 md:gap-12 lg:flex lg:gap-10 xl:gap-20"
       >
-        <div v-for="(data, index) in footerData" :key="index" class="md:w-32">
+        <div
+          v-for="(data, index) in footerData"
+          :key="index"
+          class="md:w-32 xl:w-26"
+        >
           <span
             class="font-bold xl:text-sm font-['SamsungOne'] text-[#555555]"
             >{{ data.title }}</span
