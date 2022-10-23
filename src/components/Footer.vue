@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="bg-[#ffffff] sm:grid sm:place-content-center md:place-content-start justify-center w-full mt-10 pt-6 pb-8 sm:mt-0 sm:pb-8 sm:pt-8 xl:pt-8 xl:pb-4"
+    class="bg-[#ffffff] sm:grid sm:place-content-center md:place-content-start justify-center w-full mt-10 pt-6 pb-8 sm:mt-0 sm:pb-8 sm:pt-8 xl:pt-8 xl:pb-4 2xl:place-content-center"
   >
     <div
       class="grid w-11/12 sm:w-full ml-[5%] sm:ml-0 md:ml-[4%] lg:ml-[2%] xl:ml-[7%]"
