@@ -1,8 +1,10 @@
 <template>
   <footer
-    class="bg-[#ffffff] sm:grid sm:place-content-center md:place-content-start justify-center w-full sm:pt-8 xl:pt-8 xl:pb-4"
+    class="bg-[#ffffff] sm:grid sm:place-content-center md:place-content-start justify-center w-full mt-10 pt-6 pb-8 sm:mt-0 sm:pb-8 sm:pt-8 xl:pt-8 xl:pb-4"
   >
-    <div class="grid w-full md:ml-[4%] lg:ml-[2%] xl:ml-[7%]">
+    <div
+      class="grid w-11/12 sm:w-full ml-[5%] sm:ml-0 md:ml-[4%] lg:ml-[2%] xl:ml-[7%]"
+    >
       <span class="text-[12px] font-normal text-[#757575] font-['SamsungOne']"
         >* All product specifications reflect internal test results and are
         subject to variations by user’s system configuration.
@@ -18,7 +20,7 @@
     </div>
     <div
       role="breadcumb"
-      class="md:ml-[4%] lg:ml-[2%] xl:ml-[2%] sm:mt-8 xl:mt-14 sm:flex sm:items-center xl:flex xl:items-center md:gap-1 xl:gap-1"
+      class="ml-[5%] sm:ml-0 md:ml-[4%] lg:ml-[2%] xl:ml-[2%] mt-9 sm:mt-8 xl:mt-14 flex items-center sm:flex sm:items-center xl:flex xl:items-center md:gap-1 xl:gap-1"
     >
       <span class="text-[#555555] text-[12px] font-['SamsungOne'] font-normal"
         >Home</span
@@ -51,7 +53,7 @@
     <div>
       <FooterCollapse :footerData="footerData" />
       <div
-        class="hidden sm:hidden md:ml-[4%] lg:ml-[2%] md:mt-7 md:grid md:grid-cols-3 md:gap-12 lg:flex lg:gap-12 xl:gap-24"
+        class="hidden sm:hidden md:ml-[4%] lg:ml-[2%] md:mt-7 md:grid md:grid-cols-3 md:gap-12 lg:flex lg:gap-10 xl:gap-24"
       >
         <div v-for="(data, index) in footerData" :key="index" class="md:w-32">
           <span

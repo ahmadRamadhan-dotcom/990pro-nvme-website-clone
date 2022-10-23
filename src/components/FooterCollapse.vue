@@ -1,5 +1,9 @@
 <template>
-  <div v-for="(data, index) in footerData" :key="index">
+  <div
+    v-for="(data, index) in footerData"
+    :key="index"
+    class="w-11/12 mx-auto sm:w-full sm:mx-0 mt-10 sm:mt-0"
+  >
     <div @-click="handleActive(data.id)" class="md:hidden flex justify-between">
       <span
         class="sm:leading-[60px] font-bold font-['SamsungOne'] text-[#555555]"
