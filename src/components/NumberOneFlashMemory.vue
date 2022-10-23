@@ -1,7 +1,7 @@
 <template>
   <div class="mt-20 sm:mt-20 md:mt-0 flex justify-center items-center">
     <div
-      class="w-full flex flex-col-reverse sm:flex sm:flex-col-reverse md:flex-row md:items-center xl:flex xl:justify-between xl:items-center"
+      class="w-full flex flex-col-reverse sm:flex sm:flex-col-reverse md:flex-row md:items-center xl:flex xl:justify-between xl:items-center 2xl:w-[75%]"
     >
       <span
         class="md:hidden mt-14 w-[95%] text-center md:w-10/12 lg:w-11/12 xl:w-10/12 md:mt-3 xl:mt-6 text-[12px] font-['SamsungOne'] font-normal"
