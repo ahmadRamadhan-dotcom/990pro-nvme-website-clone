@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-[#1a1a1c] flex justify-center xl:pb-24 mt-20 sm:mt-20 xl:mt-36"
+    class="bg-[#1a1a1c] flex justify-center sm:pb-32 xl:pb-24 mt-20 sm:mt-20 xl:mt-36"
   >
     <div
       class="grid place-content-center sm:w-11/12 md:w-full xl:w-full place-items-center sm:mt-20 xl:mt-16"
