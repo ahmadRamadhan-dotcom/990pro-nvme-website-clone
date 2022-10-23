@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center">
     <div
-      class="grid place-content-center items-center text-center sm:grid sm:place-content-center sm:items-center sm:text-center md:text-left md:flex md:justify-between md:place-items-center xl:flex xl:justify-between xl:place-items-center"
+      class="grid place-content-center items-center text-center sm:grid sm:place-content-center sm:items-center sm:text-center md:text-left md:flex md:justify-between md:place-items-center xl:flex xl:justify-between xl:place-items-center 2xl:w-[75%]"
     >
       <div
         class="mt-14 sm:mt-20 xl:mt-32 grid place-content-center place-items-center sm:place-content-center sm:place-items-center md:place-content-start md:place-items-start xl:p-12"
@@ -24,7 +24,7 @@
       <img
         src="../assets/990-pro-of-pc-samsung-magician.webp"
         alt="the image of samsung magician software, which is great software"
-        class="mt-16 sm:mt-20 md:mt-0 md:w-6/12 xl:h-[755px]"
+        class="mt-16 sm:mt-20 md:mt-0 md:w-6/12 xl:h-[755px] 2xl:h-"
       />
     </div>
   </div>
