@@ -1,6 +1,8 @@
 <template>
   <div class="flex justify-center mt-20 sm:mt-20 sm:pb-20 xl:mt-10 xl:pb-20">
-    <div class="xl:mt-16 grid w-11/12 sm:w-[95%] lg:w-4/5 xl:w-7/12 2xl:w-6/12">
+    <div
+      class="xl:mt-16 grid w-11/12 sm:w-[95%] lg:w-4/5 xl:w-7/12 2xl:w-[1000px]"
+    >
       <span
         class="font-['Samsung_Sharp_Sans'] text-center font-bold text-[28px] sm:text-[28px] lg:text-4xl"
         >Related Resources</span

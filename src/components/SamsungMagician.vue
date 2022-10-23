@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center">
     <div
-      class="grid place-content-center items-center text-center sm:grid sm:place-content-center sm:items-center sm:text-center md:text-left md:flex md:justify-between md:place-items-center xl:flex xl:justify-between xl:place-items-center 2xl:w-[75%]"
+      class="grid place-content-center items-center text-center sm:grid sm:place-content-center sm:items-center sm:text-center md:text-left md:flex md:justify-between md:place-items-center xl:flex xl:justify-between xl:place-items-center 2xl:w-[1450px]"
     >
       <div
         class="mt-14 sm:mt-20 xl:mt-32 grid place-content-center place-items-center sm:place-content-center sm:place-items-center md:place-content-start md:place-items-start xl:p-12"
